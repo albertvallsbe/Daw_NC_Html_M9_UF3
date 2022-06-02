@@ -17,42 +17,54 @@
         </div>
         <div class="header-menu">
             <div>
-                <a href="index.html"><input class="menu-buttons" type="button" value="La Canibal"></a>
+                <input class="menu-buttons" type="button" value="La Canibal">
             </div>
         </div>
     </header>
     <main>
         <section class="main-product-detail">
-            <section class="product-cards--container">
-                <article class="product-detail--card">
-                    <form action="/my-handling-form-page" method="post">
-                        <ul>
-                            <li>
-                                <label for="name">Nom:</label>
-                                <input type="text" id="name" name="user_name">
-                            </li>
-                            <li>
-                                <label for="name">Cognom:</label>
-                                <input type="text" id="name" name="user_name">
-                            </li>
-                            <li>
-                                <label for="mail">E-mail:</label>
-                                <input type="email" id="mail" name="user_email">
-                            </li>
-                            <li>
-                                <label for="msg">Missatge:</label>
-                                <textarea id="msg" name="user_message"></textarea>
-                            </li>
-                        </ul>
-                    </form>
+            <div>
+                <section class="product-cards--container">
+                    <div>
+                        <article class="product-detail--card">
+                            <h3>Formulari</h3>
+                            <form action="/my-handling-form-page" method="post">
+                                <ul>
+                                    <li>
+                                        <label for="first_name">Nom:</label>
+                                        <input type="text" id="first_name" name="user_name" >
+                                    </li>
+                                    <li>
+                                        <label for="last_name">Cognom:</label>
+                                        <input type="text" id="last_name" name="user_lastname" >
+                                    </li>
+                                    <li>
+                                        <label for="mail">E-mail:</label>
+                                        <input type="email" id="mail" name="user_email">
+                                    </li>
+                                    <li>
+                                        <label for="msg">Missatge:</label>
+                                        <textarea id="msg" name="user_message"></textarea>
+                                    </li>
+                                </ul>
+                                <input class="submit" type="submit" value="Tramitar" />
+                            </form>
 
-                </article>
-
-            </section>
+                        </article>
+                    </div>
+                </section>
+            </div>
         </section>
     </main>
     <footer class="footer">
-        <p>Footer</p>
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="¡CSS Válido!" />
+            </a>
+        </p>
+        <p>La Canibal S.A. </p>
     </footer>
 </body>
 
